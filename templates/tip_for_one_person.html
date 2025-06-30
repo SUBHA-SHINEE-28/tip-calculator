@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP CALCULATOR</title>
+    <link rel="stylesheet" href="/static/styles/style.css">
+</head>
+
+<body>
+    <h1>TIP CALCULATOR</h1>
+    <p>TIP AMOUNT : {{ tip_amount }} </p>
+    <p>TOTAL AMOUNT : {{ total_amount }}</p>
+
+    <form action="/submit" method="post">
+
+        <label for="amt">amount</label><input type="text" name="amt" value="{{ amount }}" required></p>
+        <p><label for="tip_per">tip %</label><input type="text" name="tip_per" value="{{ tip_percentage }}" required></p>
+        <p> <label for="no_of_per">no of person</label><input type="number" name="no_of_per" value="{{ no_of_per }}"></p>
+        <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+
+</html>

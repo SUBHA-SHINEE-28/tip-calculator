@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP CALCULATOR</title>
+    <link rel="stylesheet" href="/static/styles/style.css">
+</head>
+
+<body>
+    <h1>TIP CALCULATOR</h1>
+    <form action="/submit" method="post">
+
+        <p> <label for="amt">amount</label><input type="text" name="amt" required></p>
+        <p> <label for="tip_per">tip %</label><input type="text" name="tip_per" required></p>
+        <p> <label for="no_of__per">no of person</label><input type="number" name="no_of_per" value="1" min="1"></p>
+        <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+
+</html>
