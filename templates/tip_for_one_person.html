@@ -17,7 +17,7 @@
 
         <label for="amt">amount</label><input type="text" name="amt" value="{{ amount }}" required></p>
         <p><label for="tip_per">tip %</label><input type="text" name="tip_per" value="{{ tip_percentage }}" required></p>
-        <p> <label for="no_of_per">no of person</label><input type="number" name="no_of_per" value="{{ no_of_per }}"></p>
+        <p> <label for="no_of_per">no of person</label><input type="number" name="no_of_per" value="{{ no_of_per }}" min="1"></p>
         <button type="submit">Submit</button>
     </form>
 
