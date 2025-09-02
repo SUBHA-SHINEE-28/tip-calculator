@@ -1,4 +1,4 @@
-# 💰 Tip Calculator (Flask Web App)
+# Tip Calculator (Flask Web App)
 
 A simple and clean web-based Tip Calculator built using Python Flask. It lets users calculate tips for one person or split among many. Designed with a stylish dark theme using custom CSS.
 
@@ -9,11 +9,11 @@ bash
 python -m venv .venv
 
 ## Step 2: Activate environment
-## 👉 Windows CMD
+## Windows CMD
 .venv\Scripts\activate
-## 👉 PowerShell
+## PowerShell
 .venv\Scripts\Activate.ps1
-## 👉 macOS/Linux
+## macOS/Linux
 source .venv/bin/activate
 
 ## Step 3: Install dependencies
